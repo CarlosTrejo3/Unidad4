@@ -31,7 +31,8 @@ public class Datosp1 {
         System.out.println("\n");
       Informacion info2= new Informacion("Sandra","Arquitectura",3);
       info2.MostrarDatos();
-        System.out.println("TEC2"); 
+        System.out.println("TEC2");
+        System.out.println("TEC2 / 7:34P.M.");
   
     }
     
