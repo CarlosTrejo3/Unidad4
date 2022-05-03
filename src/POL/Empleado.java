@@ -1,5 +1,5 @@
 package POL;
-
+//NO SE PUEDE INTANCIAR
 //import .*;
 
 /*
