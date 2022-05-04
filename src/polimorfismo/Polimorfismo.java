@@ -8,7 +8,7 @@ package polimorfismo;
 
 /**
  *
- * @author Amdrea M
+ * @author Carlos
  */
 import POL.*;
 public class Polimorfismo {

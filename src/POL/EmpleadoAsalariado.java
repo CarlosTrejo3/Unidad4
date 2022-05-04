@@ -9,7 +9,7 @@ package POL;
    
 /**
  *
- * @author jjggs_000
+ * @author Carlos
  */
 public class EmpleadoAsalariado extends Empleado {
     
@@ -36,10 +36,14 @@ public class EmpleadoAsalariado extends Empleado {
     
     // se sobreescriben los metodos de ingreso "metodo abstracto" para calcular los ingresos
     @Override
-    public double ingresos(){
+    /*public double ingresos(){
         return obtenerSalarioSemanal();
     
+    }*/
+    public double obtenerMontoPago(){
+        return obtenerSalarioSemanal();
     }
+    
     @Override
     public String toString(){
         return String.format("Empleado asalariado:  %s\n%s: $%,.2f",super.toString(),"Salario semanal",obtenerSalarioSemanal());

@@ -8,7 +8,7 @@ package POL;
 
 /**
  *
- * @author jjggs_000
+ * @author Carlos
  */
 public class EmpleadoPorHoras extends Empleado {
     
